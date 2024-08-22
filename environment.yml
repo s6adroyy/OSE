@@ -1,0 +1,63 @@
+name: dl_intro
+channels:
+  - huggingface
+  - pytorch
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.10.12
+  - jupyterlab
+  - ipywidgets
+  - ipywidgets==7.7.1
+
+  # basics
+  - numpy==1.23.5
+  - scipy
+  - pandas==1.5.3
+  - matplotlib
+  - matplotlib==3.7.1
+  - seaborn
+
+  # sklearn
+  - scikit-learn
+  - scikit-image
+  - scikit-image==0.19.3
+  - scikit-learn==1.2.2
+
+  # huggingface
+  - transformers
+  - tokenizers
+  - datasets
+  - sentencepiece
+
+  - pip
+  - pip:
+    # pytorch
+    - torch==2.0.1
+    - torchvision==0.15.2
+    - torchtext==0.15.2
+    - huggingface_hub[cli]
+    - huggingface-hub==0.16.4
+    - matplotlib==3.7.1
+    - nltk==3.8.1
+    - notebook==6.5.5
+    - notebook_shim==0.2.3
+    - plotly==5.15.0
+    - plotnine==0.12.3
+    - scikit-image==0.19.3
+    - scikit-learn==1.2.2
+    - scipy==1.10.1
+    - statsmodels==0.14.0
+    - tensorboard==2.13.0
+    - tensorboard-data-server==0.7.1
+    - tensorflow==2.13.0
+    - tensorflow-datasets==4.9.2
+    - tensorflow-estimator==2.13.0
+    - tensorflow-gcs-config==2.13.0
+    - tensorflow-hub==0.14.0
+    - tensorflow-io-gcs-filesystem==0.33.0
+    - tensorflow-metadata==1.14.0
+    - tensorflow-probability==0.20.1 
+    - tokenizers==0.13.3
+    - sklearn-pandas==2.2.0
+    - tqdm==4.66.1
